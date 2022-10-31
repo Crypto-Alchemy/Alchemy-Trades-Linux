@@ -1,9 +1,19 @@
--V4.FG.2 
-	Added bug fixes for Matic response issues
-	Added decimal fix for Pancake Swap
+-V4.FG.3
+	Timer fixed
+	Ability to leave grid and come back (including leave browser and come back)
+	Increased UI stability
+	Increased Web3 stability
+	Custom RPCs
+	Fixed WFTM
+	Added Telegram for buys and sells, and alerts if your bot crashes due to failed TX or Stoploss
+	Changed fail tx error to happen after 5 consecutive fails.
+
+-V4.FG.2
+	Tamed Matic
+	Fixed PCS error with inputs
 
 -V4.FG.1 - STILL, because Alch is on vacation and we didnt change the version
-	Added custom port options, default is 5000, custom ports are defined with -p PORT
+	Added custom port options
 	Added new machine fingerprint to prevent unnecessary license locks
 	Added hotfix, after 10 failed TX bot stops
 
